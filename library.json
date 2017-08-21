@@ -1,0 +1,14 @@
+{
+    "name": "hal",
+    "keywords": "stm32, ili9341, display, tft, driver",
+    "description": "ILI9341 display driver for the STM32F4 microcontroller. Uses the MCU's FSMC to send data to the display.",
+    "authors": {
+      "name": "iamniels"
+    },
+    "version":"1.0.0",
+    "export": {
+        "include":"hal"
+    },
+    "platforms": "ststm32",
+    "frameworks": "stm32cube"
+}
